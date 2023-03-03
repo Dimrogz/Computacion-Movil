@@ -42,15 +42,27 @@
 
         <RadioButton
             android:id="@+id/r1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="37dp"
             android:text="Sumar" />
 
         <RadioButton
             android:id="@+id/r2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="33dp"
             android:text="Restar" />
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Multiplicar" />
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Dividir" />
     </RadioGroup>
 
     <Button
@@ -58,10 +70,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="205dp"
+        android:layout_marginTop="340dp"
         android:onClick="operar"
         android:text="operar"
         app:layout_constraintEnd_toEndOf="@+id/Grupo1"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

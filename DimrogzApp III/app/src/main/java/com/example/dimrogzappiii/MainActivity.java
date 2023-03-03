@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText et1,et2;
     private TextView tv1;
-    private RadioButton r1,r2;
+    private RadioButton r1,r2,r3,r4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         tv1=findViewById(R.id.tv1);
         r1=findViewById(R.id.r1);
         r2=findViewById(R.id.r2);
+        r3=findViewById(R.id.r3);
+        r4=findViewById(R.id.r4);
     }
 
     //Este método se ejecutará cuando se presione el botón
@@ -40,6 +42,16 @@ public class MainActivity extends AppCompatActivity {
         if (r2.isChecked()==true) {
             int resta=nro1-nro2;
             String resu=String.valueOf(resta);
+            tv1.setText(resu);
+        }
+        if (r3.isChecked()==true) {
+            int multiplicar=nro1*nro2;
+            String resu=String.valueOf(multiplicar);
+            tv1.setText(resu);
+        } else
+        if (r4.isChecked()==true) {
+            int dividir=nro1/nro2;
+            String resu=String.valueOf(dividir);
             tv1.setText(resu);
         }
     }

@@ -8,34 +8,6 @@
     tools:context=".Enviado">
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/imageView"
-        android:layout_width="416dp"
-        android:layout_height="128dp"
-        android:adjustViewBounds="false"
-        android:background="#2C2C2C"
-        android:cropToPadding="false"
-        android:padding="10dp"
-        app:shapeAppearanceOverlay="@style/circular2"
-        app:strokeColor="#FF2C2C2C"
-        app:strokeWidth="12dp"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="656dp" />
-
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/imageView5"
-        android:layout_width="416dp"
-        android:layout_height="128dp"
-        android:adjustViewBounds="false"
-        android:background="#2C2C2C"
-        android:cropToPadding="false"
-        android:padding="10dp"
-        app:shapeAppearanceOverlay="@style/circular"
-        app:strokeColor="#FF2C2C2C"
-        app:strokeWidth="12dp"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="656dp" />
-
-    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView14"
         android:layout_width="385dp"
         android:layout_height="153dp"
@@ -45,9 +17,10 @@
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128"
+        app:layout_constraintVertical_bias="0.173"
         app:shapeAppearanceOverlay="@style/circular"
         app:strokeColor="#FF2C2C2C"
         app:strokeWidth="12dp" />
@@ -57,47 +30,56 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NextGen"
+        android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textColor="#FFFFFF"
         android:textSize="60sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14" />
 
     <ImageButton
         android:id="@+id/imageButton8"
         android:layout_width="34dp"
         android:layout_height="40dp"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        tools:layout_editor_absoluteX="361dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imgButtonBack3"
         android:layout_width="50dp"
         android:layout_height="44dp"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="6dp" />
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="180dp"
         android:layout_height="68dp"
+        android:layout_marginTop="100dp"
         android:text="Se ha enviado un correo para restablecer la contraseña."
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

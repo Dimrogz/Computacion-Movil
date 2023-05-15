@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCDCD"
+    tools:context=".Producto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView31"
+        android:layout_width="366dp"
+        android:layout_height="359dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="444dp"
+        android:adjustViewBounds="false"
+        android:background="#2C2C2C"
+        android:cropToPadding="false"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeColor="#FF2C2C2C"
+        app:strokeWidth="12dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView33"
+        android:layout_width="233dp"
+        android:layout_height="240dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/msi4080"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="12dp" />
+
+    <ImageButton
+        android:id="@+id/imgButtonBack5"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="34dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$10.000.000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="379dp"
+        android:layout_height="282dp"
+        android:autoText="false"
+        android:elegantTextHeight="false"
+        android:lineSpacingExtra="8sp"
+        android:text="Memoria 24Gb Gddr6X Motor Grafico Nvidia® Geforce Rtx™ 4090 Estándar de bús Pci Express® Gen 4 Reloj De Núcleo Rendimiento extremo: 2535 Mhz (Centro Msi) Impulso: 2520 Mhz (juego y modo silencioso) Velocidad de memoria 21 Gb/s Pantallas máximas 4 Soporte Hdcp Consumo de energía (W) 450W Producción Display Port X 3 (V1.4A) Hdmi™ X 1 (admite HDR de 4K a 120 Hz, HDR de 8K a 60 Hz y frecuencia de actualización variable según se especifica en HDMI 2.1A) Listo para la realidad virtual Resolución Máxima Digital 7680X4320 Versión Soportada De Opengl 4.6 Peso 2170 gramos / 3093 gramos"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TARJETA DE VIDEO MSI RTX 4090 24GB  GDDR6 GAMING TRIO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

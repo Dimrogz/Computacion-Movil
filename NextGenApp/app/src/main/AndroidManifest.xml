@@ -12,6 +12,18 @@
         android:theme="@style/Theme.NextGenApp"
         tools:targetApi="31">
         <activity
+            android:name=".Paginaprin"
+            android:exported="false" />
+        <activity
+            android:name=".Enviado"
+            android:exported="false" />
+        <activity
+            android:name=".Restablecer"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

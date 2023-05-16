@@ -11,6 +11,7 @@
         android:id="@+id/textView15"
         android:layout_width="261dp"
         android:layout_height="58dp"
+        android:onClick="iniciopag"
         android:text="NextGen"
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -30,11 +31,13 @@
         android:layout_height="44dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:onClick="inicioapp"
         app:layout_constraintBottom_toBottomOf="@+id/textView15"
         app:layout_constraintEnd_toStartOf="@+id/textView15"
         app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <ImageButton
@@ -43,11 +46,13 @@
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
+        android:onClick="cierre"
         app:layout_constraintBottom_toBottomOf="@+id/textView15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toEndOf="@+id/textView15"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -183,6 +188,7 @@
         android:layout_marginTop="8dp"
         android:adjustViewBounds="false"
         android:cropToPadding="false"
+        android:onClick="item1"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.095"

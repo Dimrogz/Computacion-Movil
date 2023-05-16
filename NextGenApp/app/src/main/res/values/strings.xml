@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">NextGenApp</string>
+    <string name="btn_inciar_pantalla">Iniciar Sesion</string>
+    <string name="btn_registrar_pantalla">No tienes una cuenta? Registrate</string>
+    <string name="btn_restablecer_pantalla">Olvidaste tu contraseña?</string>
+    <string name="btn_cuentasi_pantalla">Ya tienes una cuenta? Ingresa</string>
+
+    <string name="btn_inicar_Sesion">Iniciar</string>
+    <string name="btn_registrarse_Cuenta">Registrarse</string>
+
 </resources>

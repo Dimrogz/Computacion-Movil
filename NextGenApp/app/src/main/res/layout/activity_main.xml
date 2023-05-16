@@ -11,7 +11,8 @@
         android:id="@+id/imageButton13"
         android:layout_width="34dp"
         android:layout_height="40dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
+        android:onClick="cierre"
         app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.957"
@@ -27,6 +28,7 @@
         android:adjustViewBounds="false"
         android:background="#2C2C2C"
         android:cropToPadding="false"
+        android:onClick="inicioapp"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,6 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
+        android:onClick="inicioapp"
         android:text="NextGen"
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -92,11 +95,12 @@
         app:layout_constraintVertical_bias="0.493" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Nocuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="No tienes una cuenta? Registrarse"
+        android:onClick="registrarse"
+        android:text="@string/btn_registrar_pantalla"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -107,11 +111,12 @@
         app:layout_constraintTop_toBottomOf="@+id/Entrar" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/Nocontra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Olvidaste tu contraeña?"
+        android:onClick="restablecer"
+        android:text="@string/btn_restablecer_pantalla"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -137,7 +142,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/contrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -168,11 +173,11 @@
         android:layout_marginTop="12dp"
         android:backgroundTint="#2C2C2C"
         android:shadowColor="#2C2C2C"
-        android:text="Entrar"
+        android:text="@string/btn_inicar_Sesion"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/Nocontra"
         app:rippleColor="#2C2C2C" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

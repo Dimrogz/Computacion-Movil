@@ -172,6 +172,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#2C2C2C"
+        android:onClick="iniciopag"
         android:shadowColor="#2C2C2C"
         android:text="@string/btn_inicar_Sesion"
         android:textColor="#FFFFFF"

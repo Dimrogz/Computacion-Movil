@@ -7,20 +7,6 @@
     android:background="#CDCDCD"
     tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="34dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="28dp"
-        android:onClick="cierre"
-        app:layout_constraintBottom_toTopOf="@+id/imageView13"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView7"
         android:layout_width="385dp"
@@ -108,7 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Entrar" />
+        app:layout_constraintTop_toBottomOf="@+id/EntrarBtn" />
 
     <TextView
         android:id="@+id/Nocontra"
@@ -131,7 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Bienvenidos De Nuevo!"
+        android:text="Bienvenido De Nuevo!"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -147,32 +133,42 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/design_default_color_secondary"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/design_default_color_secondary_variant"
         app:layout_constraintBottom_toBottomOf="@+id/imageView20"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
         app:layout_constraintTop_toTopOf="@+id/imageView20" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/correo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="Ingresa tu email:"
+        android:textAlignment="textStart"
+        android:textColor="@color/material_dynamic_neutral0"
+        android:textColorHighlight="@color/teal_200"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/design_default_color_secondary_variant"
         app:layout_constraintBottom_toBottomOf="@+id/imageView22"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.562" />
 
     <Button
-        android:id="@+id/Entrar"
+        android:id="@+id/EntrarBtn"
         android:layout_width="235dp"
         android:layout_height="43dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#2C2C2C"
-        android:onClick="iniciopag"
+        android:onClick="IniciarSesion"
         android:shadowColor="#2C2C2C"
         android:text="@string/btn_inicar_Sesion"
         android:textColor="#FFFFFF"

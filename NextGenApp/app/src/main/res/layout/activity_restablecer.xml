@@ -44,19 +44,6 @@
         app:strokeWidth="12dp" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="34dp"
-        android:layout_height="40dp"
-        android:onClick="cierre"
-        app:layout_constraintBottom_toTopOf="@+id/imageView13"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.965"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.228"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
         android:id="@+id/imgButtonBack2"
         android:layout_width="50dp"
         android:layout_height="44dp"
@@ -88,12 +75,14 @@
         app:layout_constraintVertical_bias="0.485" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/correo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="Ingresa tu email:"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView19"
         app:layout_constraintEnd_toEndOf="@+id/imageView19"
         app:layout_constraintStart_toStartOf="@+id/imageView19"
@@ -113,26 +102,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Enviar" />
+        app:layout_constraintTop_toBottomOf="@+id/Enviarbt" />
 
     <Button
-        android:id="@+id/Enviar"
+        android:id="@+id/Enviarbt"
         android:layout_width="235dp"
         android:layout_height="51dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#2C2C2C"
-        android:onClick="enviar"
+        android:onClick="Restablecercontraseña"
         android:text="Enviar"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="251dp"
-        android:layout_height="43dp"
+        android:layout_width="254dp"
+        android:layout_height="46dp"
         android:layout_marginTop="12dp"
-        android:text="Deseas restablecer tu contraseña? Ingresa tu correo electronico."
+        android:text="Deseas restablecer tu contraseña?"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#000000"
@@ -145,8 +135,8 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="220dp"
-        android:layout_height="46dp"
+        android:layout_width="222dp"
+        android:layout_height="64dp"
         android:layout_marginTop="12dp"
         android:text="Te enviaremos un correo para restablecer tu contraseña."
         android:textAlignment="center"

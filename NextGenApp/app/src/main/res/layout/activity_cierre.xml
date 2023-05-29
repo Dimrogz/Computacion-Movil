@@ -27,19 +27,6 @@
         app:strokeWidth="12dp" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="34dp"
-        android:layout_height="40dp"
-        android:onClick="cierre"
-        app:layout_constraintBottom_toTopOf="@+id/imageView26"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-
-    <ImageButton
         android:id="@+id/imageButton9"
         android:layout_width="50dp"
         android:layout_height="44dp"

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCDCD"
+    tools:context=".Producto_1">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView31"
+        android:layout_width="440dp"
+        android:layout_height="407dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="449dp"
+        android:adjustViewBounds="false"
+        android:background="#2C2C2C"
+        android:cropToPadding="false"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeColor="#FF2C2C2C"
+        app:strokeWidth="12dp" />
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/imageSlider"
+        android:layout_width="294dp"
+        android:layout_height="294dp"
+        app:iss_auto_cycle="true"
+        app:iss_corner_radius="25"
+        app:iss_delay="3000"
+        app:iss_period="3000"
+        app:iss_title_background="@drawable/gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView33"
+        android:layout_width="233dp"
+        android:layout_height="240dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:padding="10dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/msi4080"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="12dp" />
+
+    <ImageButton
+        android:id="@+id/imgButtonBack5"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:onClick="iniciopag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="34dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="cierre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$1.750.000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="379dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="4dp"
+        android:autoText="false"
+        android:elegantTextHeight="false"
+        android:lineSpacingExtra="8sp"
+        android:text="Núcleos totales: 14 Numero de núcleos de rendimiento: 6 Numero de núcleos eficientes: 8 Temas totales: 20 Frecuencia turbo máxima: 5,10 GHz Frecuencia turbo máxima de núcleo de rendimiento: 5,10 GHz Frecuencia turbo máxima de núcleo eficiente: 3,90 GHz Frecuencia base de núcleo de rendimiento: 3,50 GHz Frecuencia base de núcleo eficiente: 2,60 GHz Caché: caché inteligente Intel® de 24 MB Caché L2 total: 20 MB Potencia base del procesador: 125 W Potencia máxima del turbo: 181 W Colección de productos Procesadores Intel® Core™ i5 de 13.ª generación Código Nombre Productos anteriormente Raptor Lake Número de procesador: i5-13600K Litografía – Intel 7"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="PROCESADOR INTEL CORE I5 13600K "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+    <Button
+        android:id="@+id/comprarBtn"
+        android:layout_width="235dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#2C2C2C"
+        android:onClick="comprado"
+        android:shadowColor="#2C2C2C"
+        android:text="@string/btn_comprar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.81"
+        app:rippleColor="#2C2C2C" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

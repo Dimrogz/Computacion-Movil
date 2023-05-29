@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1030441964334",
+    "project_id": "nextgenapp-cbd0f",
+    "storage_bucket": "nextgenapp-cbd0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030441964334:android:2461b0dd69f9163c9de0bf",
+        "android_client_info": {
+          "package_name": "com.example.nextgenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030441964334-jt4i7c6cof3c5g8loq9ltd2b7hthvlav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCisITBHVRM0I6uerGhoEcj9YF5qmx5Lpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030441964334-jt4i7c6cof3c5g8loq9ltd2b7hthvlav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -60,7 +60,7 @@
         android:id="@+id/textView17"
         android:layout_width="180dp"
         android:layout_height="68dp"
-        android:onClick="inicioapp"
+        android:onClick="iniciopag"
         android:text="¡Su compra ha sido satisfactoria!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
